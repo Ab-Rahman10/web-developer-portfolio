@@ -28,10 +28,11 @@ body {
   background-color: #fd6e0a;
   color: #ffffff;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 600;
   padding: 18px 30px;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .section-title {
@@ -41,7 +42,7 @@ body {
 }
 
 .item-title {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
 }
 
@@ -119,20 +120,17 @@ nav .title {
   margin-right: 30px;
 }
 
-/* main style  */
+/* main about style  */
 main {
-  background-color: #fff8f3;
-  max-width: 1140px;
   margin: 130px 230px;
-  padding: 130px 150px;
 }
 
 main .about {
   align-items: center;
-  max-width: 825px;
+  max-width: 1140px;
   margin: 0 auto;
-  background-color: #ffffff;
-  padding: 5px 20px;
+  background-color: #fff8f3;
+  padding: 130px 150px;
 }
 
 main section h3 {
@@ -152,4 +150,112 @@ main .about-items {
 
 main .about-items .about-item {
   text-align: center;
+}
+
+/* main skills style  */
+main .skills {
+  align-items: center;
+  max-width: 1140px;
+  margin: 130px auto;
+}
+
+main .skills-container {
+  display: flex;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+main .skill {
+  padding: 30px;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.069);
+}
+
+main .skill img {
+  margin-bottom: 30px;
+}
+
+main .skill h4 {
+  margin-bottom: 20px;
+}
+
+/* resume section style */
+.resume-container {
+  display: flex;
+  gap: 24px;
+}
+
+.resume-column-title {
+  text-align: left;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 100px;
+}
+
+.resume-container .experiance-title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.resume-container .experiance-sub-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.resume-container .experiance-description {
+  margin-bottom: 30px;
+}
+
+.text-center {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Footer section style*/
+footer {
+  background-color: #fff8f3;
+  display: flex;
+  gap: 115px;
+  padding: 130px 230px;
+}
+
+footer .item-title {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+footer .footer-insta-image {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+footer .section-title {
+  margin-bottom: 28px;
+}
+
+footer input[type="text"],
+input[type="email"] {
+  height: 64px;
+  width: 100%;
+  margin-bottom: 24px;
+  padding-left: 30px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+footer textarea {
+  width: 100%;
+  padding-top: 18px;
+  padding-left: 30px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+footer input[type="submit"] {
+  margin-top: 24px;
+  margin-bottom: 130px;
 }
